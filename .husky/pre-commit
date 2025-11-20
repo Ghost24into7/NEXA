@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Husky pre-commit hook
+
+echo "🔍 Running pre-commit checks..."
+
+# Run linter
+npm run lint || {
+  echo "❌ ESLint failed. Please fix the errors and try again."
+  exit 1
+}
+
+# Run type check
+npm run type-check || {
+  echo "❌ TypeScript type check failed. Please fix the errors and try again."
+  exit 1
+}
+
+# Run format check
+npm run format:check || {
+  echo "❌ Prettier format check failed. Please format your code with 'npm run format'."
+  exit 1
+}
+
+echo "✅ All pre-commit checks passed!"
