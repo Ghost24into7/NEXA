@@ -447,27 +447,10 @@ git push origin feature/amazing-feature
 # 6. Open a Pull Request on GitHub
 ```
 
-### Commit Convention
-
-We use [Conventional Commits](https://www.conventionalcommits.org/):
-
-```
-feat: add new calculation mode
-fix: resolve floating-point precision bug
-docs: update installation instructions
-style: improve button hover animations
-refactor: optimize math engine performance
-test: add unit tests for calculator store
-chore: update dependencies
-```
-
----
 
 ## 📄 License
 
 This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
-
-**TL;DR:** You can use NEXA for anything, commercially or personally, as long as you include the original license.
 
 ---
 
@@ -478,24 +461,6 @@ This project is licensed under the **MIT License** — see the [LICENSE](./LICEN
 [![Star History Chart](https://api.star-history.com/svg?repos=Ghost24into7/NEXA&type=Date)](https://star-history.com/#Ghost24into7/NEXA&Date)
 
 **If you find NEXA useful, please consider giving it a star! ⭐**
-
-</div>
-
----
-
-## 💬 Support & Community
-
-<div align="center">
-
-[![GitHub Issues](https://img.shields.io/github/issues/Ghost24into7/NEXA?style=for-the-badge)](https://github.com/Ghost24into7/NEXA/issues)
-[![GitHub Discussions](https://img.shields.io/github/discussions/Ghost24into7/NEXA?style=for-the-badge)](https://github.com/Ghost24into7/NEXA/discussions)
-[![Discord](https://img.shields.io/badge/Discord-Join%20Chat-5865f2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/nexa)
-
-**Need help?**
-- 🐛 [Report a bug](https://github.com/Ghost24into7/NEXA/issues/new?template=bug_report.md)
-- 💡 [Request a feature](https://github.com/Ghost24into7/NEXA/issues/new?template=feature_request.md)
-- 💬 [Join discussions](https://github.com/Ghost24into7/NEXA/discussions)
-- 📧 Email: support@nexa-calc.com
 
 </div>
 
@@ -545,7 +510,7 @@ Built with ❤️ using these amazing open-source projects:
 
 **[⬆ Back to Top](#-nexa)**
 
-Made with 🔮 by the NEXA Team
+Made with Myron Correia
 
 *Numerical Engine for Exact Answers*
 
